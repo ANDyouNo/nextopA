@@ -1,0 +1,35 @@
+.navMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navItem a:hover {
+  color: #000;
+}
+
+.active {
+  background-color: #f0f0f0;
+}
